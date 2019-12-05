@@ -3,7 +3,8 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Vehicle[] T = {new Vehicle(), new Plane(), new Ship(),new Car(),new Truck(),new RaceCar()};
+        /*
+        Vehicle[] T = {new Vehicle(name), new Plane(), new Ship(),new Car(),new Truck(),new RaceCar()};
         for (Vehicle vehicles : T) {
             vehicles.MethodVehicle();
             if (vehicles instanceof Car)
@@ -28,5 +29,6 @@ public class Main {
             }
             System.out.println("\n");
         }
+         */
     }
 }

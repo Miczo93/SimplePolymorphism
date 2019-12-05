@@ -1,6 +1,15 @@
 package com.company;
 
 public class RaceCar extends Car {
+    public RaceCar(String name) {
+        super(name);
+    }
+
+    @Override
+    double getFuelNeeds() {
+        return 650;
+    }
+
     @Override
     void MethodVehicle() {
         System.out.println("Vehicle method from RaceCar");
